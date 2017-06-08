@@ -19,7 +19,7 @@ Get-AzureRmSqlServerAuditingPolicy -ServerName <String> [-ResourceGroupName] <St
 
 ## DESCRIPTION
 The **Get-AzureRmSqlServerAuditingPolicy** cmdlet gets the auditing policy of an Azure SQL server.
-Specify the *ResourceGroupName*, *ServerName*, and *DatabaseName* parameters to identify the database.
+Specify the *ResourceGroupName*, and *ServerName* parameters to identify the database.
 This cmdlet returns a policy that is used by the Azure SQL databases that are both defined in the specified Azure SQL server and use its auditing policy.
 
 ## EXAMPLES
